@@ -21,14 +21,14 @@ h1{
     font-size: 50px;
 }
 h1 span{
-    color: orange;
+    color: #6a9cfa;;
 }
 .half-width img{
     width: 100%;
 }
 .anchor-button{
     text-decoration: none;
-    background: linear-gradient(45deg, lightsalmon, tomato);
+    background: linear-gradient(45deg, rgb(177, 149, 255), rgb(181, 142, 255));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -60,13 +60,17 @@ h2{
     height: 80%;
 }
 #full-stack{
-    border-left: 7px solid;
+    background-color: rgb(250, 239, 226);
+    border: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-radius: 15px;
     border-image-slice: 1;
 }
 #baby-web{
-    border-left: 7px solid;
-    border-image: linear-gradient(180deg, blue, cyan);
+    background-color: rgb(183, 249, 253);
+    border: 7px solid;
+    border-image: linear-gradient(180deg, rgb(81, 81, 247), cyan);
+    border-radius: 15px;
     border-image-slice: 1;
 }
 footer p{
@@ -97,7 +101,21 @@ border-radius: 30%;
   width: 85%;
   border: solid ;
   border-width: 15px;
-  border-color: rgb(161, 194, 255);
+  border-color: #a1c2ff;
   border-radius: 20px;
   margin-top: 10px;
+}
+#thanks{
+padding-left: 500px;
+width: 20%;
+}
+
+#lt{
+    padding-top: 60px;
+}
+#ltt{
+    padding-top: 60px;
+}
+#ta{
+    text-align: center;
 }
