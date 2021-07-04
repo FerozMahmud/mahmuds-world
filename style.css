@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: rgb(255, 251, 255);
 }
 section{
     height: 500px;
@@ -34,7 +35,7 @@ h1 span{
     font-weight: 700;
 }
 p{
-    color: dimgray;
+    color: rgb(88, 81, 81);
     text-align: justify;
 }
 .dream-area{
@@ -94,4 +95,9 @@ border-radius: 30%;
   margin-left: auto;
   margin-right: auto;
   width: 85%;
+  border: solid ;
+  border-width: 15px;
+  border-color: rgb(161, 194, 255);
+  border-radius: 20px;
+  margin-top: 10px;
 }
