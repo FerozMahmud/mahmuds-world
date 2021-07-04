@@ -75,9 +75,9 @@ footer p{
 {
 margin-left:auto;
 margin-right:auto;
-margin-top:110px;
-margin-left: 150px;
-width:300px;
+margin-top:50px;
+margin-left: 50px;
+width:450px;
 border-radius: 30%;
 }
 #img2{
@@ -88,4 +88,10 @@ border-radius: 30%;
 }
 .lp{
     padding-left: 65px;
+}
+#center-img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
 }
